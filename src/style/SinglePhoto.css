@@ -1,0 +1,49 @@
+
+
+#singlePhoto h1 {
+     font-size: 27px;
+     padding: 10px;
+}
+
+#singlePhoto p  {
+    font-size: 15px;
+    padding: 10px;
+    width: 50%;
+}
+
+#singlePhoto * {
+    margin: auto;
+}
+
+#singlePhoto img{ 
+    width: 400px;
+    object-fit: cover;
+    box-shadow: 1.5px 1.5px 3.5px 3px rgb(255, 255, 255);
+    height: 250px;
+    border-radius: 10px;
+    
+}
+
+@media ( 0px <= width <=575px){
+    #singlePhoto img{ 
+        width: 80%;
+        object-fit: cover;
+        box-shadow: 1.5px 1.5px 3.5px 3px rgb(255, 255, 255);
+        height: 250px;
+        border-radius: 10px;
+        
+    }
+
+    #singlePhoto p  {
+        font-size: 15px;
+        padding: 10px;
+        width: 90%;
+    }
+    
+}
+
+
+
+#singlePhoto div  {
+    padding: 20px;
+}
